@@ -1,0 +1,63 @@
+body{
+	overflow-x:hidden;
+}
+
+
+
+.header img{ display:block;margin-left:auto;margin-right:auto;
+width:40%;border-radius:25px}
+.header h1{color:white;font-size:40px;text-align:center}
+
+.overlay{position:absolute;right:150px;left:150px;
+top:50px;bottom:0px;border-radius:25px;
+background:rgba(0,0,0,0.7)}
+
+
+.boxleft p{background-color:white;
+font-size:25px;height:300px;padding:20px;
+border:5px solid red;border-radius:25px;
+margin-left:0px;margin-right:100px}
+.boxright p{background-color:white;
+font-size:25px;height:300px;padding:20px;
+border:5px solid red;border-radius:25px;
+margin-right:0px;margin-left:100px}
+.boxleft img{border:2px solid red;height:100%;float:right;
+border-radius:25px;}
+.boxright img{border:2px solid red;height:100%;float:left;
+border-radius:25px;}
+.boxleft b{color:white;margin-left:50%;font-size:40px;text-shadow:-4px 4px 5px black;}
+.boxright b{color:white;margin-left:50%;font-size:40px;text-shadow:-4px 4px 5px black;}
+
+.driver div{background:url('WTPbgimg/banf1.jpg');
+height:470px;padding:20px;color:white;font-size:27px;
+border:5px solid red;border-radius:25px;margin:50px}
+.driver table{color:white;
+cell-spacing:30px;margin-left:20px;float:left;
+font-size:23px;}
+.driver th{text-align:right;border:1px solid black}
+.driver td{text-align:left;border:1px solid black}
+.driver img{style=min-height:300px; 
+background:url('WTPbgimg/drivercard.png');
+center no-repeat; background-size: cover;
+height:100%;float:left;border-radius:50%}
+
+.tracks img{border:3px solid black;border-radius:25px;
+background:url('WTPbgimg/grid.webp')}
+.tracks legend{font-size:25px;color:red;
+background:rgba(0,0,0,0.7)}
+.tracks fieldset{float:left;width:28%;color:white;margin:20px;
+background:rgba(0,0,0,0.7);border-radius:25px;
+height:300px}
+.tracks form{align-items:center}
+.flag b{color:white;font-size:30px;margin-left:0px;text-shadow:-2px 2px 5px black;}
+.flag img{height:30px;float:right}
+
+.teams legend{font-size:25px;color:red;border-radius:25px;
+border:5px solid white;background-color:white}
+.teams fieldset{background-color:white;border-radius:25px}
+.teams table{background-color:white}
+.teams th{rowspan:*}
+.teams img{height:470px;margin-top:0px;border-radius:25px;}
+.teams marquee{behavior:scroll;}
+.teams b{font-size:35px}
+.teams p{font-size:20px;margin:20px;}

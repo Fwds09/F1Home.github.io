@@ -1,0 +1,178 @@
+.video{position:absolute;
+		height:100%;width:100%;filter:blur(0px);}
+	*{box-sizing: border-box;
+		margin:0;
+		padding:0;
+		object-fit:cover}
+
+
+.overlay2{
+  position: absolute;
+  right:150px;left:150px;top:50px;bottom:0px;
+  align-items:center;
+  background:rgba(0,0,0,0.6);
+  border: 1px solid white;
+  box-shadow: -6px 6px 10px 6px black;
+}
+.menu
+{
+
+}
+.menu.active
+{
+
+
+}
+.show
+{
+  position: relative;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+ 
+  align-items: center;
+  background: #111;
+  transition: 0.75s;
+  z-index: 2;
+  
+}
+.show.active
+{
+  left: 300px;
+}
+.for{
+	position:absolute;
+	right:150px;left:150px;top:50px;bottom:50px;
+	padding:20px;
+}
+.for2{
+	position:absolute;
+	right:150px;left:150px;top:10px;
+	padding:20px;
+}
+.title{
+	padding:0px;
+	right:140px;left:140px;
+	font-family:arial black;color:white;font-size:45px;
+	text-shadow:-3px 3px 2px black;
+	background:black;	
+}	
+.title2{
+	font-family:century gothic;color:white;font-size:45px;
+	text-shadow:-3px 3px 2px black;
+	position:block;
+	right:150px;left:150px;
+	padding:5px;
+	text-decoration:bold;
+}	
+.button{
+	padding:50px;
+	position:relative;
+	display:flex;
+	justify-content:space-between;
+	
+}
+img:hover{
+	transform:scale(1.25) translateY(-15px);
+	transition:0.5s;
+}
+table{
+	border:none;
+	table-layout:fixed;
+	margin:auto;
+	text-align:center;
+}
+.choice{
+	background-color:red;
+	background-image:url('grad3.jpg');
+	background-size: 150px 80px;
+	border-radius:25px;
+	border:3px solid white;
+	box-shadow: -5px 5px 5px black;
+}
+.choice2{
+	text-decoration:none;
+	font-family:arial black;
+	color:white;
+	padding:10px;
+}
+.choice3{
+	background-color:#03a9f4;
+	
+	background-size: 150px 80px;
+	border-radius:25px;
+	border:3px solid white;
+	box-shadow: -5px 5px 5px black;
+}
+td:hover{
+	transform:scale(1.1) translateY(10px);
+	transition:0.5s;
+}
+th{
+	font-family:arial black;
+	size:60px;
+	color:white;
+}
+.text{
+	text-shadow:-3px 3px 2px black;
+	font-family:century gothic;
+	size:60px;
+	color:white;
+	padding:10px;
+	background-color:rgba( 0, 0, 0, 0.6);
+}
+.menucontent
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menucontent ul
+{
+  position: relative;
+}
+.menucontent ul li
+{ 
+	list-style: none;
+}
+.menucontent ul li a{
+  text-decoration: none;
+  font-family:arial black;
+  font-size: 30px;
+  color: #111;
+}
+.menucontent ul li a:hover
+{
+  color: #03a9f4; 
+}
+.relative{
+	position:block;
+	justify-content:center;
+	
+	padding:5px;
+	right:110px;left:110px;
+}
+.wallpaper{
+	position:fixed;
+	width:100%;height:100%;
+	background-position:center;
+	
+}
+.wallpaper:hover{
+	transform:none;
+}
+.top{
+	position:fixed;
+	left:60px;bottom:60px;
+}
+.dp{
+	position:relative;
+	height:300px;width:300px;
+	border-radius:200px;
+	padding:20px;
+}
